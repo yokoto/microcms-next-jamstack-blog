@@ -5,7 +5,7 @@ import Link from "next/link";
 import { client } from "../libs/client";
 
 type Props = {
-  blogs: [Blog]
+  blogs: Blog[]
 }
 
 const Home: NextPage<Props> = (props: Props) => {
