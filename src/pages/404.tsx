@@ -1,10 +1,13 @@
 import { NextPage } from 'next'
+import { Layout } from '../components/Layout';
 
 const Custom404: NextPage= () => {
   return (
-    <main className="main">
-      <p>ページがありません。</p>
-    </main>
+    <Layout>
+      <main className="main">
+        <p>ページがありません。</p>
+      </main>
+    </Layout>
   );
 }
 
